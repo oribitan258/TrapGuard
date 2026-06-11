@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrapGuard — Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 24px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <h1>TrapGuard — Privacy Policy</h1>
+  <p class="meta">Last updated: June 2026 &nbsp;·&nbsp;
+    <a href="https://github.com/oribitan258/TrapGuard">github.com/oribitan258/TrapGuard</a>
+  </p>
+
+  <h2>What TrapGuard does</h2>
+  <p>
+    TrapGuard is a browser extension that detects hidden AI prompt-injection
+    instructions in academic files (PDF, DOCX, PPTX, TXT, MD) before they are
+    uploaded to AI assistants such as ChatGPT or Claude.
+  </p>
+
+  <h2>Data collection — none</h2>
+  <p>
+    TrapGuard collects <strong>no personal data</strong> and transmits
+    <strong>nothing</strong> to any server. All file analysis happens locally
+    inside your browser. File bytes never leave your device.
+  </p>
+
+  <h2>What stays on your device</h2>
+  <p>
+    Scan history is stored in your browser's local storage (via
+    <code>chrome.storage.local</code>). Each history entry contains only:
+  </p>
+  <ul>
+    <li>The file name</li>
+    <li>The verdict (clean / infected / error)</li>
+    <li>The timestamp of the scan</li>
+    <li>The revealed hidden text (if a threat was found)</li>
+  </ul>
+  <p>
+    This data never leaves your browser. It is ring-buffered to approximately
+    100 entries and can be cleared at any time from the extension's settings page.
+  </p>
+
+  <h2>No third-party services</h2>
+  <p>
+    TrapGuard makes zero external network requests. It uses no analytics,
+    tracking, crash reporting, or remote configuration. All fonts are
+    self-hosted inside the extension package.
+  </p>
+
+  <h2>Permissions</h2>
+  <p>
+    The extension requests access to supported AI sites (chatgpt.com, claude.ai,
+    and others you optionally add) solely to intercept file uploads at the moment
+    of risk. It does not read page content, form data, or any information unrelated
+    to file upload interception.
+  </p>
+
+  <h2>Open source</h2>
+  <p>
+    TrapGuard is open source. You can inspect the full source code at
+    <a href="https://github.com/oribitan258/TrapGuard">github.com/oribitan258/TrapGuard</a>.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions or concerns:
+    <a href="mailto:oribitan258@gmail.com">oribitan258@gmail.com</a>
+  </p>
+</body>
+</html>

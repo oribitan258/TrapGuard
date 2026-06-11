@@ -1,0 +1,15 @@
+{
+  // Extends the config WXT generates into .wxt/ on `wxt prepare`
+  // (it wires #imports, entrypoint globals, and the base strict settings).
+  // We layer the same extra-strict flags the legacy root tsconfig used.
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true
+  }
+}

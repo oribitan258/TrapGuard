@@ -1,0 +1,7 @@
+# Ben-Gurion University - Algorithms (202.1.3661)
+
+Assignment 5: Divide and conquer.
+Solve T(n) = 2T(n/2) + O(n) via the Master Theorem.
+Prove mergesort correct by induction on the array length n.
+Show any comparison sort is Omega(n log n) in the worst case.
+Implement Dijkstra with a binary heap: O((V + E) log V).

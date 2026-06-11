@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output / WXT
+.output/
+.wxt/
+dist/
+*.tsbuildinfo
+
+# Throwaway local artifacts
+_screens/
+*.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

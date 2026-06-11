@@ -1,0 +1,20 @@
+TrapGuard bundles the following fonts locally (woff2) so the extension makes
+ZERO external network calls ("100% local"). Both are licensed under the SIL Open
+Font License, Version 1.1 (OFL-1.1), which permits bundling and redistribution.
+
+────────────────────────────────────────────────────────────────────────────
+Heebo
+  Copyright (c) The Heebo Project Authors (https://github.com/OdedEzer/heebo)
+  Licensed under the SIL Open Font License, Version 1.1.
+  Files: heebo-he-{400,500,600,700}.woff2, heebo-lat-{400,500,600,700}.woff2
+
+JetBrains Mono
+  Copyright (c) 2020 The JetBrains Mono Project Authors
+  (https://github.com/JetBrains/JetBrainsMono)
+  Licensed under the SIL Open Font License, Version 1.1.
+  Files: jbmono-lat-{400,500}.woff2
+────────────────────────────────────────────────────────────────────────────
+
+woff2 subsets were obtained from the Fontsource distribution
+(https://fontsource.org). The full OFL-1.1 license text is available at:
+https://openfontlicense.org/open-font-license-official-text/

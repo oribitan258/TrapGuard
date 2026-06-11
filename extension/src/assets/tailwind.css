@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* TrapGuard design tokens — copied verbatim from the legacy src/styles/globals.css
+   @theme block (Deep Crimson + Charcoal palette). Hebrew/RTL.
+   These are injected into the Shadow DOM (cssInjectionMode: 'ui') and into the
+   popup/options pages — they never leak into or inherit from the host page.
+
+   THEME (Phase 6): the @theme block below is the DARK default. Tailwind v4 emits
+   these vars under `:root, :host`, so they resolve inside the Shadow-DOM overlay
+   too. The `.light` block further down overrides the neutral surfaces for the
+   light theme; because the compiled `.light` rule is injected into every UI root
+   (popup/options pages + the shadow root), adding the `light` class to a UI root
+   re-themes everything beneath it — including the overlay card. */
+
+@theme {
+  /* ── Locked palette (source of truth for all surfaces) ── */
+  --color-bg: #1C1C1E;
+  --color-bg-elevated: #232325;
+  --color-surface: #252528;
+  --color-sidebar: #1A1A1C;
+  --color-border: #3A3A3E;
+  --color-crimson: #9B1C2E;
+  --color-text-primary: #F2F2F7;
+  --color-text-secondary: #8E8E93;
+  --color-text-tertiary: #636366;
+  --color-emerald: #30D158;
+  --color-amber: #FF9F0A;
+  --color-error: #FF453A;
+  --color-blue: #0A84FF;
+
+  /* ── Font stacks ── */
+  --font-ui: "Heebo", "Assistant", "Rubik", system-ui, -apple-system, "Segoe UI", "Arial Hebrew", sans-serif;
+  --font-mono: "JetBrains Mono", "Miriam Mono CLM", Consolas, monospace;
+
+  /* ── Overlay entrance animation (Shadow-DOM Alert & Reveal card) ── */
+  --animate-tg-slide-in: tg-slide-in 300ms cubic-bezier(0, 0, 0.2, 1) forwards;
+}
+
+/* ── Light theme overrides (Phase 6) ──────────────────────────────────────────
+   Only the neutral surfaces flip; the semantic accents (crimson/emerald/amber/
+   error/blue) stay so the brand + threat colors read identically in both themes.
+   Applied by toggling the `light` class on a UI root (page root or overlay card).
+   `:host(.light)` covers the case where the host element itself carries the class
+   in a Shadow DOM; `.light` covers a descendant root carrying it. */
+.light,
+:host(.light) {
+  /* Comfortable light theme: a soft, slightly warm neutral page with gently
+     off-white cards (NOT stark white) so the whole surface is easy on the eyes,
+     separated by visible borders + a subtle lift. Strong-but-not-harsh ink. */
+  --color-bg: #E6E6EA;
+  --color-bg-elevated: #F4F4F6;
+  --color-surface: #F1F1F4;
+  --color-sidebar: #DEDEE3;
+  --color-border: #CFCFD6;
+  --color-text-primary: #25262B;
+  --color-text-secondary: #5C5D66;
+  --color-text-tertiary: #8C8D96;
+}
+
+/* Light-theme card lift: a subtle shadow so white cards read as elevated on the
+   near-white page without resorting to a gray background. Scoped to our card
+   pattern (rounded-xl border on a surface) inside a light root. */
+.light .rounded-xl.border,
+:host(.light) .rounded-xl.border {
+  box-shadow: 0 1px 2px rgba(16, 18, 24, 0.04), 0 1px 3px rgba(16, 18, 24, 0.06);
+}
+
+/* ── Wordmark — metallic ruby logotype ──
+   Vivid ruby at the top (clearly distinct from white body text) deepening toward
+   near-crimson at the base — like polished red metal catching light. The glow in
+   Brand.tsx reinforces the cyber edge. Light theme: same family, richer contrast.
+   Applied with bg-clip-text on the "TrapGuard" span (see ui/Brand.tsx). */
+.tg-wordmark {
+  /* Dark: bright ruby-pink at the crown → vivid crimson at the base.
+     Stays fully ruby across all font sizes — no white (which blends with body
+     text), no near-black (which looks muddy at larger sizes). */
+  background-image: linear-gradient(180deg, #FF4060 0%, #E0304C 55%, #C42438 100%);
+}
+.light .tg-wordmark,
+:host(.light) .tg-wordmark {
+  /* Light: white can't show on a light page — clean ruby logotype with depth. */
+  background-image: linear-gradient(180deg, #D42840 0%, #A11D30 100%);
+}
+
+@keyframes tg-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

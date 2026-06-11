@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "txt-tp-zw-zwsp",
+    "file": "txt/tp_zw_zwsp_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-zwnj",
+    "file": "txt/tp_zw_zwnj_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-zwj",
+    "file": "txt/tp_zw_zwj_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-lrm",
+    "file": "txt/tp_zw_lrm_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-rlm",
+    "file": "txt/tp_zw_rlm_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-wj",
+    "file": "txt/tp_zw_wj_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-bom",
+    "file": "txt/tp_zw_bom_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-braille",
+    "file": "txt/tp_zw_braille_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-he",
+    "file": "txt/tp_zw_zwsp_he.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-interleaved",
+    "file": "txt/tp_zw_interleaved_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": null,
+    "location_key": "line",
+    "doctrine": "zero_width is a finding on the codepoint alone (sole AND-gate exception)."
+  },
+  {
+    "id": "txt-tp-zw-with-bom",
+    "file": "txt/tp_zw_with_bom_en.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "A single leading BOM is stripped, but an interior zero-width char is still a finding."
+  },
+  {
+    "id": "txt-tp-zw-md",
+    "file": "md/tp_zw_zwsp.md",
+    "format": "md",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": "pool",
+    "location_key": "line",
+    "doctrine": "Unified engine: .md uses the same TXT zero_width path."
+  },
+  {
+    "id": "txt-tp-zw-innocent-line",
+    "file": "txt/tp_zw_innocent_line.txt",
+    "format": "txt",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": null,
+    "location_key": "line",
+    "doctrine": "zero_width fires regardless of adversarial content (sole exception)."
+  },
+  {
+    "id": "txt-tn-warn-en0",
+    "file": "txt/tn_warn_en0.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI instruction = CLEAN (Fair Warning). No structural anomaly."
+  },
+  {
+    "id": "txt-tn-warn-en1",
+    "file": "txt/tn_warn_en1.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI instruction = CLEAN (Fair Warning). No structural anomaly."
+  },
+  {
+    "id": "txt-tn-warn-he0",
+    "file": "txt/tn_warn_he0.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI instruction = CLEAN (Fair Warning). No structural anomaly."
+  },
+  {
+    "id": "txt-tn-warn-he1",
+    "file": "txt/tn_warn_he1.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI instruction = CLEAN (Fair Warning). No structural anomaly."
+  },
+  {
+    "id": "txt-tn-visible-adv",
+    "file": "txt/tn_visible_adv_en.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Adversarial wording in VISIBLE text, no concealment anomaly → clean."
+  },
+  {
+    "id": "txt-tn-bom-plain-en",
+    "file": "txt/tn_bom_plain_en.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "A single leading BOM (UTF-8 signature) is stripped, not a finding."
+  },
+  {
+    "id": "txt-tn-bom-plain-he",
+    "file": "txt/tn_bom_plain_he.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "A single leading BOM (UTF-8 signature) is stripped, not a finding."
+  },
+  {
+    "id": "txt-tn-plain-en",
+    "file": "txt/tn_plain_en.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary academic text → clean."
+  },
+  {
+    "id": "txt-tn-plain-he",
+    "file": "txt/tn_plain_he.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary academic text → clean."
+  },
+  {
+    "id": "txt-tn-plain-md",
+    "file": "md/tn_plain.md",
+    "format": "md",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary markdown → clean."
+  },
+  {
+    "id": "txt-tn-nearkw0",
+    "file": "txt/tn_nearkw0.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "txt-tn-nearkw1",
+    "file": "txt/tn_nearkw1.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "txt-tn-nearkw2",
+    "file": "txt/tn_nearkw2.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "txt-tn-innocent-en0",
+    "file": "txt/tn_innocent_en0.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Innocent author note in visible text → clean."
+  },
+  {
+    "id": "txt-tn-innocent-en1",
+    "file": "txt/tn_innocent_en1.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Innocent author note in visible text → clean."
+  },
+  {
+    "id": "txt-tn-innocent-en2",
+    "file": "txt/tn_innocent_en2.txt",
+    "format": "txt",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Innocent author note in visible text → clean."
+  },
+  {
+    "id": "txt-rb-empty",
+    "file": "txt/rb_empty.txt",
+    "format": "txt",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Empty TXT → clean (no content to conceal), never a crash."
+  },
+  {
+    "id": "pdf-tp-color-en0",
+    "file": "pdf/tp_color_en0.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "pool",
+    "location_key": "page",
+    "doctrine": "Near-invisible colour (ΔE<25) concealing an AI instruction → color_threshold."
+  },
+  {
+    "id": "pdf-tp-color-en1",
+    "file": "pdf/tp_color_en1.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "banana",
+    "location_key": "page",
+    "doctrine": "Near-invisible colour (ΔE<25) concealing an AI instruction → color_threshold."
+  },
+  {
+    "id": "pdf-tp-color-he",
+    "file": "pdf/tp_color_he.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "page",
+    "doctrine": "Hebrew honeypot concealed by near-white colour → color_threshold."
+  },
+  {
+    "id": "pdf-tp-micro-en",
+    "file": "pdf/tp_micro_en.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "micro_font"
+    ],
+    "payload_substr": "quantum",
+    "location_key": "page",
+    "doctrine": "Micro-font (<2pt) concealing an AI instruction → micro_font."
+  },
+  {
+    "id": "pdf-tp-micro-he",
+    "file": "pdf/tp_micro_he.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "micro_font"
+    ],
+    "payload_substr": "פיל",
+    "location_key": "page",
+    "doctrine": "Micro-font (<2pt) Hebrew honeypot → micro_font."
+  },
+  {
+    "id": "pdf-tp-spatial-top",
+    "file": "pdf/tp_spatial_top.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "spatial"
+    ],
+    "payload_substr": "ZX9",
+    "location_key": "page",
+    "doctrine": "Text drawn off the MediaBox (above the page) → spatial."
+  },
+  {
+    "id": "pdf-tp-spatial-right",
+    "file": "pdf/tp_spatial_right.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "spatial"
+    ],
+    "payload_substr": "elephant",
+    "location_key": "page",
+    "doctrine": "Text drawn off the MediaBox (right of the page) → spatial."
+  },
+  {
+    "id": "pdf-tp-zindex",
+    "file": "pdf/tp_zindex.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "z_index"
+    ],
+    "payload_substr": "ZX9",
+    "location_key": "page",
+    "doctrine": "Text painted first, then buried under an opaque image → z_index."
+  },
+  {
+    "id": "pdf-tp-regex-concealed",
+    "file": "pdf/tp_regex_concealed.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "regex_keyword"
+    ],
+    "payload_substr": "DAN",
+    "location_key": "page",
+    "doctrine": "Concealed canonical jailbreak phrasing → regex_keyword (+ concealment)."
+  },
+  {
+    "id": "pdf-tp-hebrew-spans",
+    "file": "pdf/tp_hebrew_spans.pdf",
+    "format": "pdf",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "page",
+    "doctrine": "Hebrew phrase split one-word-per-span, concealed near-white → infected."
+  },
+  {
+    "id": "pdf-tn-warn-en0",
+    "file": "pdf/tn_warn_en0.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI warning = CLEAN (Fair Warning)."
+  },
+  {
+    "id": "pdf-tn-warn-en1",
+    "file": "pdf/tn_warn_en1.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI warning = CLEAN (Fair Warning)."
+  },
+  {
+    "id": "pdf-tn-warn-he0",
+    "file": "pdf/tn_warn_he0.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI warning = CLEAN (Fair Warning)."
+  },
+  {
+    "id": "pdf-tn-warn-he1",
+    "file": "pdf/tn_warn_he1.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI warning = CLEAN (Fair Warning)."
+  },
+  {
+    "id": "pdf-tn-visible-adv",
+    "file": "pdf/tn_visible_adv.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible non-jailbreak AI instruction, no anomaly → clean."
+  },
+  {
+    "id": "pdf-tn-nearkw0",
+    "file": "pdf/tn_nearkw0.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "pdf-tn-nearkw1",
+    "file": "pdf/tn_nearkw1.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "pdf-tn-nearkw2",
+    "file": "pdf/tn_nearkw2.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Keyword-ish but innocent visible text → clean."
+  },
+  {
+    "id": "pdf-tn-gray-heading",
+    "file": "pdf/tn_gray_heading.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Legit medium-gray heading above the ΔE concealment threshold → clean."
+  },
+  {
+    "id": "pdf-tn-small-footnote",
+    "file": "pdf/tn_small_footnote.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "A real >=2pt footnote is readable → clean."
+  },
+  {
+    "id": "pdf-tn-innocent-color",
+    "file": "pdf/tn_innocent_color.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Near-white but innocent note (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "pdf-tn-innocent-micro",
+    "file": "pdf/tn_innocent_micro.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Micro-font but innocent note (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "pdf-tn-plain",
+    "file": "pdf/tn_plain.pdf",
+    "format": "pdf",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary academic PDF → clean."
+  },
+  {
+    "id": "pdf-rb-image-only",
+    "file": "pdf/rb_image_only.pdf",
+    "format": "pdf",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "unscannable",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Image-only page (no text layer) → unscannable, never a silent miss."
+  },
+  {
+    "id": "pdf-rb-encrypted",
+    "file": "pdf/rb_encrypted.pdf",
+    "format": "pdf",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Password-encrypted PDF → structured error/ENCRYPTED (no throw).",
+    "expect_error_code": "ENCRYPTED"
+  },
+  {
+    "id": "pdf-rb-corrupt",
+    "file": "pdf/rb_corrupt.pdf",
+    "format": "pdf",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Corrupt PDF → structured error/CORRUPT (no throw).",
+    "expect_error_code": "CORRUPT"
+  },
+  {
+    "id": "pdf-rb-empty",
+    "file": "pdf/rb_empty.pdf",
+    "format": "pdf",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "A 0-byte file is not a valid PDF → structured error/CORRUPT (no throw); the gate fails open. (An empty TXT legitimately stays clean.)",
+    "expect_error_code": "CORRUPT"
+  },
+  {
+    "id": "docx-tp-vanish-en",
+    "file": "docx/tp_vanish_en.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "hidden_attr"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "Word 'hidden' attribute (w:vanish) on an AI instruction → hidden_attr."
+  },
+  {
+    "id": "docx-tp-vanish-he",
+    "file": "docx/tp_vanish_he.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "hidden_attr"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "paragraph",
+    "doctrine": "w:vanish on a Hebrew honeypot → hidden_attr."
+  },
+  {
+    "id": "docx-tp-white-en",
+    "file": "docx/tp_white_en.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "white_on_white"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "White-on-white text concealing an AI instruction → white_on_white."
+  },
+  {
+    "id": "docx-tp-white-he",
+    "file": "docx/tp_white_he.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "white_on_white"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "paragraph",
+    "doctrine": "White-on-white Hebrew honeypot → white_on_white."
+  },
+  {
+    "id": "docx-tp-tiny-en",
+    "file": "docx/tp_tiny_en.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "tiny_font"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "Micro-font run (<2pt) → tiny_font."
+  },
+  {
+    "id": "docx-tp-tiny-he",
+    "file": "docx/tp_tiny_he.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "tiny_font"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "paragraph",
+    "doctrine": "Micro-font Hebrew run (<2pt) → tiny_font."
+  },
+  {
+    "id": "docx-tp-split-runs",
+    "file": "docx/tp_split_runs.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "hidden_attr"
+    ],
+    "payload_substr": "banana",
+    "location_key": "paragraph",
+    "doctrine": "Payload in a hidden second run of a paragraph → hidden_attr (run-index parity)."
+  },
+  {
+    "id": "docx-tp-color-nearwhite",
+    "file": "docx/tp_color_nearwhite.docx",
+    "format": "docx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "white_on_white"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "Near-white colour (ΔE<25) on an AI instruction → white_on_white."
+  },
+  {
+    "id": "docx-tn-plain-en",
+    "file": "docx/tn_plain_en.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary academic DOCX → clean."
+  },
+  {
+    "id": "docx-tn-plain-he",
+    "file": "docx/tn_plain_he.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary Hebrew DOCX → clean."
+  },
+  {
+    "id": "docx-tn-warn-en",
+    "file": "docx/tn_warn_en.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible AI warning → clean (Fair Warning)."
+  },
+  {
+    "id": "docx-tn-warn-he",
+    "file": "docx/tn_warn_he.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Visible Hebrew AI warning → clean (Fair Warning)."
+  },
+  {
+    "id": "docx-tn-innocent-white",
+    "file": "docx/tn_innocent_white.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "White but innocent note (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "docx-tn-innocent-vanish",
+    "file": "docx/tn_innocent_vanish.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Hidden but innocent note (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "docx-tn-innocent-tiny",
+    "file": "docx/tn_innocent_tiny.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Micro-font but innocent note (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "docx-tn-color-above-threshold",
+    "file": "docx/tn_color_above_threshold.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Colour ΔE>25 is readable, even with adversarial text → clean."
+  },
+  {
+    "id": "docx-tn-tiny-exactly-2pt",
+    "file": "docx/tn_tiny_2pt.docx",
+    "format": "docx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Exactly 2pt is not < 2pt → readable → clean."
+  },
+  {
+    "id": "docx-rb-corrupt",
+    "file": "docx/rb_corrupt.docx",
+    "format": "docx",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Corrupt DOCX (non-ZIP) → structured error/CORRUPT (no throw).",
+    "expect_error_code": "CORRUPT"
+  },
+  {
+    "id": "docx-rb-encrypted",
+    "file": "docx/rb_encrypted.docx",
+    "format": "docx",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Password-encrypted DOCX (OLE2/CFB) → error/ENCRYPTED.",
+    "expect_error_code": "ENCRYPTED"
+  },
+  {
+    "id": "pptx-tp-notes-en",
+    "file": "pptx/tp_notes_en.pptx",
+    "format": "pptx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "speaker_notes"
+    ],
+    "payload_substr": "pool",
+    "location_key": "slide",
+    "doctrine": "Adversarial instruction in speaker notes → speaker_notes."
+  },
+  {
+    "id": "pptx-tp-notes-he",
+    "file": "pptx/tp_notes_he.pptx",
+    "format": "pptx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "speaker_notes"
+    ],
+    "payload_substr": "בריכה",
+    "location_key": "slide",
+    "doctrine": "Hebrew honeypot in speaker notes → speaker_notes."
+  },
+  {
+    "id": "pptx-tp-offslide-en",
+    "file": "pptx/tp_offslide_en.pptx",
+    "format": "pptx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "off_slide"
+    ],
+    "payload_substr": "banana",
+    "location_key": "slide",
+    "doctrine": "Textbox off the slide canvas (negative EMU) → off_slide."
+  },
+  {
+    "id": "pptx-tp-offslide-he",
+    "file": "pptx/tp_offslide_he.pptx",
+    "format": "pptx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "off_slide"
+    ],
+    "payload_substr": "פיל",
+    "location_key": "slide",
+    "doctrine": "Off-slide Hebrew honeypot → off_slide."
+  },
+  {
+    "id": "pptx-tp-notes-multislide",
+    "file": "pptx/tp_notes_multislide.pptx",
+    "format": "pptx",
+    "group": "tp",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "speaker_notes"
+    ],
+    "payload_substr": "pool",
+    "location_key": "slide",
+    "doctrine": "Payload in slide-2 notes of a 3-slide deck → speaker_notes (slide-number parity)."
+  },
+  {
+    "id": "pptx-tn-plain",
+    "file": "pptx/tn_plain.pptx",
+    "format": "pptx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Ordinary deck, no notes → clean."
+  },
+  {
+    "id": "pptx-tn-innocent-notes-en",
+    "file": "pptx/tn_innocent_notes_en.pptx",
+    "format": "pptx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Innocent speaker notes (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "pptx-tn-innocent-notes-he",
+    "file": "pptx/tn_innocent_notes_he.pptx",
+    "format": "pptx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Innocent Hebrew notes (no keyword) → clean (AND-gate)."
+  },
+  {
+    "id": "pptx-tn-warn-visible",
+    "file": "pptx/tn_warn_visible.pptx",
+    "format": "pptx",
+    "group": "tn",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Fair warning in VISIBLE on-slide text → clean (Fair Warning is for visible text; the same text hidden in NOTES would be a concealment finding)."
+  },
+  {
+    "id": "pptx-rb-corrupt",
+    "file": "pptx/rb_corrupt.pptx",
+    "format": "pptx",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Corrupt PPTX (non-ZIP) → structured error/CORRUPT (no throw).",
+    "expect_error_code": "CORRUPT"
+  },
+  {
+    "id": "pptx-rb-encrypted",
+    "file": "pptx/rb_encrypted.pptx",
+    "format": "pptx",
+    "group": "robustness",
+    "tier": 1,
+    "expect_verdict": "error",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "Password-encrypted PPTX (OLE2/CFB) → error/ENCRYPTED.",
+    "expect_error_code": "ENCRYPTED"
+  },
+  {
+    "id": "ag-color_threshold-anomaly",
+    "file": "pdf/ag_color_threshold_anomaly.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "color_threshold: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "color_threshold",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-color_threshold-keyword",
+    "file": "pdf/ag_color_threshold_keyword.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "color_threshold: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "color_threshold",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-color_threshold-both",
+    "file": "pdf/ag_color_threshold_both.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "pool",
+    "location_key": "page",
+    "doctrine": "color_threshold: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "color_threshold",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-micro_font-anomaly",
+    "file": "pdf/ag_micro_font_anomaly.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "micro_font: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "micro_font",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-micro_font-keyword",
+    "file": "pdf/ag_micro_font_keyword.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "micro_font: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "micro_font",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-micro_font-both",
+    "file": "pdf/ag_micro_font_both.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "micro_font"
+    ],
+    "payload_substr": "pool",
+    "location_key": "page",
+    "doctrine": "micro_font: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "micro_font",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-spatial-anomaly",
+    "file": "pdf/ag_spatial_anomaly.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "spatial: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "spatial",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-spatial-keyword",
+    "file": "pdf/ag_spatial_keyword.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "spatial: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "spatial",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-spatial-both",
+    "file": "pdf/ag_spatial_both.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "spatial"
+    ],
+    "payload_substr": "pool",
+    "location_key": "page",
+    "doctrine": "spatial: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "spatial",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-z_index-anomaly",
+    "file": "pdf/ag_z_index_anomaly.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "z_index: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "z_index",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-z_index-keyword",
+    "file": "pdf/ag_z_index_keyword.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "z_index: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "z_index",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-z_index-both",
+    "file": "pdf/ag_z_index_both.pdf",
+    "format": "pdf",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "z_index"
+    ],
+    "payload_substr": "pool",
+    "location_key": "page",
+    "doctrine": "z_index: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "z_index",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-white_on_white-anomaly",
+    "file": "docx/ag_white_on_white_anomaly.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "white_on_white: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "white_on_white",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-white_on_white-keyword",
+    "file": "docx/ag_white_on_white_keyword.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "white_on_white: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "white_on_white",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-white_on_white-both",
+    "file": "docx/ag_white_on_white_both.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "white_on_white"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "white_on_white: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "white_on_white",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-hidden_attr-anomaly",
+    "file": "docx/ag_hidden_attr_anomaly.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "hidden_attr: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "hidden_attr",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-hidden_attr-keyword",
+    "file": "docx/ag_hidden_attr_keyword.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "hidden_attr: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "hidden_attr",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-hidden_attr-both",
+    "file": "docx/ag_hidden_attr_both.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "hidden_attr"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "hidden_attr: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "hidden_attr",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-tiny_font-anomaly",
+    "file": "docx/ag_tiny_font_anomaly.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "tiny_font: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "tiny_font",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-tiny_font-keyword",
+    "file": "docx/ag_tiny_font_keyword.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "tiny_font: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "tiny_font",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-tiny_font-both",
+    "file": "docx/ag_tiny_font_both.docx",
+    "format": "docx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "tiny_font"
+    ],
+    "payload_substr": "pool",
+    "location_key": "paragraph",
+    "doctrine": "tiny_font: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "tiny_font",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-speaker_notes-anomaly",
+    "file": "pptx/ag_speaker_notes_anomaly.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "speaker_notes: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "speaker_notes",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-speaker_notes-keyword",
+    "file": "pptx/ag_speaker_notes_keyword.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "speaker_notes: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "speaker_notes",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-speaker_notes-both",
+    "file": "pptx/ag_speaker_notes_both.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "speaker_notes"
+    ],
+    "payload_substr": "pool",
+    "location_key": "slide",
+    "doctrine": "speaker_notes: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "speaker_notes",
+      "role": "both"
+    }
+  },
+  {
+    "id": "ag-off_slide-anomaly",
+    "file": "pptx/ag_off_slide_anomaly.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "off_slide: structural anomaly + innocent text → clean (AND-gate).",
+    "and_gate": {
+      "layer": "off_slide",
+      "role": "anomaly_only"
+    }
+  },
+  {
+    "id": "ag-off_slide-keyword",
+    "file": "pptx/ag_off_slide_keyword.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "clean",
+    "expect_layers": [],
+    "payload_substr": null,
+    "location_key": null,
+    "doctrine": "off_slide: adversarial text but VISIBLE (no anomaly) → clean (AND-gate).",
+    "and_gate": {
+      "layer": "off_slide",
+      "role": "keyword_only"
+    }
+  },
+  {
+    "id": "ag-off_slide-both",
+    "file": "pptx/ag_off_slide_both.pptx",
+    "format": "pptx",
+    "group": "and_gate",
+    "tier": 1,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "off_slide"
+    ],
+    "payload_substr": "pool",
+    "location_key": "slide",
+    "doctrine": "off_slide: structural anomaly AND adversarial text → infected.",
+    "and_gate": {
+      "layer": "off_slide",
+      "role": "both"
+    }
+  },
+  {
+    "id": "fr-novel-jailbreak",
+    "file": "pdf/fr_novel_jailbreak.pdf",
+    "format": "pdf",
+    "group": "frontier",
+    "tier": 2,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "watermelon",
+    "location_key": "page",
+    "doctrine": "Tier-2 frontier probe (beyond documented vectors); maps the true ceiling. KNOWN LIMITATION: novel phrasing outside the keyword list (FP risk to fix).",
+    "xfail": true
+  },
+  {
+    "id": "fr-spaced-jailbreak",
+    "file": "pdf/fr_spaced_jailbreak.pdf",
+    "format": "pdf",
+    "group": "frontier",
+    "tier": 2,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "micro_font"
+    ],
+    "payload_substr": "pineapple",
+    "location_key": "page",
+    "doctrine": "Tier-2 frontier probe (beyond documented vectors); maps the true ceiling. KNOWN LIMITATION: spaced-letter regex obfuscation (FP risk to fix).",
+    "xfail": true
+  },
+  {
+    "id": "fr-bidi-override",
+    "file": "txt/fr_bidi_override.txt",
+    "format": "txt",
+    "group": "frontier",
+    "tier": 2,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "zero_width"
+    ],
+    "payload_substr": null,
+    "location_key": "line",
+    "doctrine": "Tier-2 frontier probe (beyond documented vectors); maps the true ceiling. Bidi-override codepoints (Trojan-Source class) → zero_width (QA-09 fix)."
+  },
+  {
+    "id": "fr-combined-micro-color",
+    "file": "pdf/fr_combined.pdf",
+    "format": "pdf",
+    "group": "frontier",
+    "tier": 2,
+    "expect_verdict": "infected",
+    "expect_layers": [
+      "color_threshold"
+    ],
+    "payload_substr": "quantum",
+    "location_key": "page",
+    "doctrine": "Tier-2 frontier probe (beyond documented vectors); maps the true ceiling. Combined concealment vectors on one span."
+  }
+]

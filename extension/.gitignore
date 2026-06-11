@@ -1,0 +1,35 @@
+# WXT
+.wxt/
+.output/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Dependencies
+node_modules/
+
+# Differential STRESS artifacts — large, seeded, regenerable on demand via
+# test/differential/oracle/generate_pdf_stress.py. The frozen corpus-pdf/ is the
+# committed CI gate; this deep set is a local bug-hunting tool, not checked in.
+test/differential/corpus-pdf-stress/
+test/differential/golden-pdf-stress.json
+test/differential/corpus-ooxml-stress/
+test/differential/golden-ooxml-stress.json
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Dev-only screenshot harness output
+_screens/
+
+# Phase 7 perf fixtures — large, generated (200-page PDF + 8000-paragraph DOCX).
+# perf.test.ts self-skips when absent. Regenerate via the Python engine env.
+test/.perf/
+extension/test/acceptance/generator/**/__pycache__/

@@ -1,0 +1,47 @@
+{
+  "name": "trapguard-extension",
+  "description": "TrapGuard — MV3 browser extension that detects hidden academic AI prompt-injection honeypots before a file is uploaded to ChatGPT/Claude. 100% local.",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "compile": "wxt prepare && tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:acceptance": "vitest run test/acceptance",
+    "e2e": "wxt build && playwright test",
+    "e2e:acceptance": "wxt build && playwright test e2e/acceptance",
+    "e2e:install": "playwright install chromium",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.8.0",
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^6.0.227",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@napi-rs/canvas": "^1.0.0",
+    "@playwright/test": "^1.49.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@wxt-dev/module-react": "^1.1.3",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "happy-dom": "^20.10.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^4.1.8",
+    "wxt": "^0.20.0"
+  }
+}
